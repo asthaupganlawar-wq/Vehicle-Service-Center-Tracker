@@ -1,0 +1,30 @@
+
+<template>
+    <lightning-card title="Vehicle Service Center Dashboard" icon-name="standard:service_appointment">
+        <div class="slds-p-around_medium">
+            <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                Welcome to Vehicle Service Center
+            </h2>
+
+            <div class="slds-grid slds-wrap slds-gutters">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-around_small">
+                    <lightning-tile label="Vehicle Inventory" href="/lightning/o/Vehicle__c/list">
+                        <p>View and manage registered vehicles.</p>
+                    </lightning-tile>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-around_small">
+                    <lightning-tile label="Service Requests" href="/lightning/o/Service_Request__c/list">
+                        <p>Track repairs and service progress.</p>
+                    </lightning-tile>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-around_small">
+                    <lightning-tile label="Service Appointments" href="/lightning/o/Service_Appointment__c/list">
+                        <p>Review scheduled service appointments.</p>
+                    </lightning-tile>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
